@@ -251,22 +251,22 @@
       <HintPath>C:/Program Files/UnityEditor/2019.4.13f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="Google.Protobuf">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Runtime/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Runtime/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/PackageCache/com.unity.burst@1.3.4/Unity.Burst.Unsafe.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/PackageCache/com.unity.burst@1.3.4/Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Abstractions">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/PackageCache/com.unity.ml-agents@1.0.8/Plugins/System.IO.Abstractions.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/PackageCache/com.unity.ml-agents@1.0.8/Plugins/System.IO.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Abstractions.TestingHelpers">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/PackageCache/com.unity.ml-agents@1.0.8/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/PackageCache/com.unity.ml-agents@1.0.8/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Grpc.Core">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/PackageCache/com.unity.ml-agents@1.0.8/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/PackageCache/com.unity.ml-agents@1.0.8/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
     </Reference>
     <Reference Include="System.Interactive.Async">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/PackageCache/com.unity.ml-agents@1.0.8/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/PackageCache/com.unity.ml-agents@1.0.8/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/UnityEditor/2019.4.13f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -623,67 +623,67 @@
       <HintPath>C:/Program Files/UnityEditor/2019.4.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Barracuda.MacBLAS">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/ScriptAssemblies/Unity.Barracuda.MacBLAS.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/ScriptAssemblies/Unity.Barracuda.MacBLAS.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Barracuda.Editor">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/ScriptAssemblies/Unity.Barracuda.Editor.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/ScriptAssemblies/Unity.Barracuda.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Barracuda">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/ScriptAssemblies/Unity.Barracuda.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/ScriptAssemblies/Unity.Barracuda.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Barracuda.iOSBLAS">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/ScriptAssemblies/Unity.Barracuda.iOSBLAS.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/ScriptAssemblies/Unity.Barracuda.iOSBLAS.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ML-Agents.CommunicatorObjects">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/ScriptAssemblies/Unity.ML-Agents.CommunicatorObjects.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/ScriptAssemblies/Unity.ML-Agents.CommunicatorObjects.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Barracuda.BurstBLAS">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/ScriptAssemblies/Unity.Barracuda.BurstBLAS.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/ScriptAssemblies/Unity.Barracuda.BurstBLAS.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ML-Agents.Editor">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/ScriptAssemblies/Unity.ML-Agents.Editor.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/ScriptAssemblies/Unity.ML-Agents.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ML-Agents">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/ScriptAssemblies/Unity.ML-Agents.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/ScriptAssemblies/Unity.ML-Agents.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/HANLAB/Desktop/16유지현/Shake_it/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
