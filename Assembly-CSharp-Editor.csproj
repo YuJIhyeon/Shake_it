@@ -26,7 +26,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -35,7 +35,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <NoConfig>true</NoConfig>
@@ -66,6 +66,62 @@
   <ItemGroup>
     <Compile Include="Assets\Editor\CreateHexLattice.cs" />
     <Compile Include="Assets\Editor\CreatePlane.cs" />
+    <Compile Include="Assets\RealSenseSDK2.0\Editor\RsDeviceEditor.cs" />
+    <Compile Include="Assets\RealSenseSDK2.0\Editor\RsDeviceInspectorEditor.cs" />
+    <Compile Include="Assets\RealSenseSDK2.0\Editor\RsProcessingPipeEditor.cs" />
+    <Compile Include="Assets\RealSenseSDK2.0\Misc\Editor\CreateAssetBundles.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\RosBridgeClient\Editor\FibonacciAction\FibonacciActionClientEditor.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\RosBridgeClient\Editor\JointStatePatcherEditor.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\RosBridgeClient\Editor\MessageGeneration\DirectoryActionAutoGenEditorWindow.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\RosBridgeClient\Editor\MessageGeneration\DirectoryAutoGenEditorWindow.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\RosBridgeClient\Editor\MessageGeneration\DirectoryMsgAutoGenEditorWindow.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\RosBridgeClient\Editor\MessageGeneration\DirectorySrvAutoGenEditorWindow.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\RosBridgeClient\Editor\MessageGeneration\PackageActionAutoGenEditorWindow.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\RosBridgeClient\Editor\MessageGeneration\PackageAutoGenEditorWindow.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\RosBridgeClient\Editor\MessageGeneration\PackageMsgAutoGenEditorWindow.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\RosBridgeClient\Editor\MessageGeneration\PackageSrvAutoGenEditorWindow.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\RosBridgeClient\Editor\MessageGeneration\SingleActionAutoGenEditorWindow.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\RosBridgeClient\Editor\MessageGeneration\SingleAutoGenEditorWindow.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\RosBridgeClient\Editor\MessageGeneration\SingleMsgAutoGenEditorWindow.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\RosBridgeClient\Editor\MessageGeneration\SingleSrvAutoGenEditorWindow.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\RosBridgeClient\Editor\UrdfTransfer\TransferFromRosEditorWindow.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\RosBridgeClient\Editor\UrdfTransfer\TransferFromRosHandler.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\RosBridgeClient\Editor\UrdfTransfer\TransferToRosEditorWindow.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\RosBridgeClient\Editor\UrdfTransfer\TransferToRosHandler.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\AssetHandlers\LocateAssetHandler.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\AssetHandlers\UrdfAssetPathHandler.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\AssetHandlers\UrdfExportPathHandler.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\AssetHandlers\UrdfMeshExportHandler.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\CustomInspectors\HingeJointLimitsManagerEditor.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\CustomInspectors\UrdfCollisionEditor.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\CustomInspectors\UrdfCollisionsEditor.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\CustomInspectors\UrdfInertialEditor.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\CustomInspectors\UrdfJointEditor.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\CustomInspectors\UrdfLinkEditor.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\CustomInspectors\UrdfPluginsEditor.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\CustomInspectors\UrdfRobotEditor.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\CustomInspectors\UrdfVisualEditor.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\CustomInspectors\UrdfVisualsEditor.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\MenuItems\UrdfExportEditorWindow.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\MenuItems\UrdfImporterContextMenuItem.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\MenuItems\UrdfImporterMenuItem.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\MenuItems\UrdfRobotCreatorMenuItem.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\MeshProcessing\ColladaAssetPostProcessor.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\MeshProcessing\StlAssetPostProcessor.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\MeshProcessing\StlExporter.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\MeshProcessing\StlImporter.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\MeshProcessing\StlReader.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\MeshProcessing\StlWriter.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\UrdfComponents\UrdfCollisionExtensions.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\UrdfComponents\UrdfCollisionsExtensions.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\UrdfComponents\UrdfGeometry.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\UrdfComponents\UrdfGeometryCollision.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\UrdfComponents\UrdfGeometryVisual.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\UrdfComponents\UrdfLinkExtensions.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\UrdfComponents\UrdfMaterial.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\UrdfComponents\UrdfRobotExtensions.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\UrdfComponents\UrdfVisualExtensions.cs" />
+    <Compile Include="Assets\RosSharp\Scripts\Urdf\Editor\UrdfComponents\UrdfVisualsExtensions.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/UnityEditor/2019.4.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -264,6 +320,9 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="Intel.RealSense">
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Assets/RealSenseSDK2.0/Plugins/Intel.RealSense.dll</HintPath>
+    </Reference>
     <Reference Include="Google.Protobuf">
       <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/PackageCache/com.unity.barracuda@1.3.2-preview/Barracuda/Runtime/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
     </Reference>
@@ -281,6 +340,48 @@
     </Reference>
     <Reference Include="System.Interactive.Async">
       <HintPath>C:/Users/HANLAB/Desktop/JiHyeon/ml-agents-release_15/com.unity.ml-agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Assets/RosSharp/Plugins/External/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Assets/RosSharp/Plugins/Microsoft/System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="MessageGeneration">
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Assets/RosSharp/Plugins/MessageGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Assets/RosSharp/Plugins/Microsoft/System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Assets/RosSharp/Plugins/Microsoft/Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Assets/RosSharp/Plugins/Microsoft/System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Assets/RosSharp/Plugins/External/websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Assets/RosSharp/Plugins/Microsoft/System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Channels">
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Assets/RosSharp/Plugins/Microsoft/System.Threading.Channels.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web">
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Assets/RosSharp/Plugins/Microsoft/System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Urdf">
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Assets/RosSharp/Plugins/Urdf.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json.Bson">
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Assets/RosSharp/Plugins/External/Newtonsoft.Json.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Assets/RosSharp/Plugins/Microsoft/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="RosBridgeClient">
+      <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Assets/RosSharp/Plugins/RosBridgeClient.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:/Users/HANLAB/Documents/GitHub/Shake_it/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -711,6 +812,14 @@
     <ProjectReference Include="Unity.ML-Agents.CommunicatorObjects.csproj">
       <Project>{56029140-FF75-6329-CB4D-86F550610B95}</Project>
       <Name>Unity.ML-Agents.CommunicatorObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="Utils.csproj">
+      <Project>{725A66F0-A6D4-0DBE-9708-A0ACCAD0F2D0}</Project>
+      <Name>Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="RealSense.csproj">
+      <Project>{AA20DD9D-7DA5-F2F0-D5FB-5C6D3AA859DB}</Project>
+      <Name>RealSense</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ML-Agents.Editor.csproj">
       <Project>{2A88B1C2-8FB8-D42F-38C4-9780F8BE2421}</Project>
