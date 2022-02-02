@@ -57,7 +57,7 @@ public class Agent_S : Agent
         
         //velocity
         sensor.AddObservation(ball.velocity);
-        sensor.AddObservation(ball.angularVelocity);
+        //sensor.AddObservation(ball.angularVelocity);
 
         //Stage and Endpoint
         //rotation
@@ -68,7 +68,7 @@ public class Agent_S : Agent
     {
         ColliderCheck Collision1 = GameObject.Find("side (2)").GetComponent<ColliderCheck>();
         ColliderCheck Collision2 = GameObject.Find("side (3)").GetComponent<ColliderCheck>();
-        FileOut Trial = GameObject.Find("env").GetComponent<FileOut>(); //env <->curvedEnv*******************************************************************
+        FileOut Trial = GameObject.Find("curvedEnv").GetComponent<FileOut>(); //env <->curvedEnv*******************************************************************
 
         //ColliderCheck Collision3 = GameObject.Find("Holdeplane Colider").GetComponent<ColliderCheck>();
 
@@ -222,13 +222,13 @@ public class Agent_S : Agent
         }
 
         SetReward(-0.0001f); // 가만히 있지 마
-        Debug.Log(((float)Mathf.Round(ball.angularVelocity.magnitude * 100f) / 100f).ToString());
+        Debug.Log(((float)Mathf.Round(ball.velocity.magnitude * 100f) / 100f).ToString());
 
-        if ((float)Mathf.Round(ball.angularVelocity.magnitude) == 0f)
+        if ((float)Mathf.Round(ball.velocity.magnitude) == 0f)
         {
             scaler = 3f;
         }
-        else if((float)Mathf.Round(ball.angularVelocity.magnitude * 10f) / 10f >= 1f && (float)Mathf.Round(ball.angularVelocity.magnitude * 10f) / 10f < 1.5f)
+        else if((float)Mathf.Round(ball.velocity.magnitude * 10f) / 10f >= 1f && (float)Mathf.Round(ball.velocity.magnitude * 10f) / 10f < 1.5f)
         {
             scaler = 2f;
         }
@@ -242,9 +242,9 @@ public class Agent_S : Agent
             SetReward(0.2f);
             actionX = scaler * actionX;
             actionZ = scaler * actionZ;
-            if (((float)Mathf.Round(ball.angularVelocity.magnitude * 10f) / 10f == 0f) ||
-                ((float)Mathf.Round(ball.angularVelocity.magnitude * 10f) / 10f >= 1f && (float)Mathf.Round(ball.angularVelocity.magnitude * 10f) / 10f < 1.5f)  ||
-                ((float)Mathf.Round(ball.angularVelocity.magnitude * 10f) / 10f >= 3.0f))
+            if (((float)Mathf.Round(ball.velocity.magnitude * 10f) / 10f == 0f) ||
+                ((float)Mathf.Round(ball.velocity.magnitude * 10f) / 10f >= 1f && (float)Mathf.Round(ball.velocity.magnitude * 10f) / 10f < 1.5f)  ||
+                ((float)Mathf.Round(ball.velocity.magnitude * 10f) / 10f >= 3.0f))
             {
                 SetReward(-0.1f);
                 if (((Hand.transform.localRotation.x < 90f && Hand.transform.localRotation.x > -0.05f) && actionX < 0f) ||
@@ -366,9 +366,9 @@ public class Agent_S : Agent
             SetReward(0.3f);
             actionX = scaler * actionX;
             actionZ = scaler * actionZ;
-            if (((float)Mathf.Round(ball.angularVelocity.magnitude * 10f) / 10f == 0.0f) ||
-                ((float)Mathf.Round(ball.angularVelocity.magnitude * 10f) / 10f > 0.6f && (float)Mathf.Round(ball.angularVelocity.magnitude * 10f) / 10f < 1f) ||
-                ((float)Mathf.Round(ball.angularVelocity.magnitude * 10f) / 10f >= 3.0f))
+            if (((float)Mathf.Round(ball.velocity.magnitude * 10f) / 10f == 0.0f) ||
+                ((float)Mathf.Round(ball.velocity.magnitude * 10f) / 10f > 0.6f && (float)Mathf.Round(ball.velocity.magnitude * 10f) / 10f < 1f) ||
+                ((float)Mathf.Round(ball.velocity.magnitude * 10f) / 10f >= 3.0f))
             {
                 SetReward(-0.1f);
 
@@ -500,9 +500,9 @@ public class Agent_S : Agent
             actionX = scaler * actionX;
             actionZ = scaler * actionZ;
 
-            if (((float)Mathf.Round(ball.angularVelocity.magnitude * 10f) / 10f == 0.0f) ||
-                ((float)Mathf.Round(ball.angularVelocity.magnitude * 10f) / 10f > 0.6f && (float)Mathf.Round(ball.angularVelocity.magnitude * 10f) / 10f < 1f) ||
-                ((float)Mathf.Round(ball.angularVelocity.magnitude * 10f) / 10f >= 3.0f))
+            if (((float)Mathf.Round(ball.velocity.magnitude * 10f) / 10f == 0.0f) ||
+                ((float)Mathf.Round(ball.velocity.magnitude * 10f) / 10f > 0.6f && (float)Mathf.Round(ball.velocity.magnitude * 10f) / 10f < 1f) ||
+                ((float)Mathf.Round(ball.velocity.magnitude * 10f) / 10f >= 3.0f))
             {
                 SetReward(-0.1f);
 
@@ -748,7 +748,7 @@ public class Agent_S : Agent
 
         ball.transform.position = new Vector3(ballX * Mathf.Cos(alpha) - ballY * Mathf.Sin(alpha), ballX * Mathf.Sin(alpha) + ballY * Mathf.Cos(alpha), ballZ); //roll
         ball.velocity = Vector3.zero;
-        ball.angularVelocity = Vector3.zero;
+        //ball.angularVelocity = Vector3.zero;
 
         thetaX = temp;
     }
